@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin-left: 18%;
+   	box-shadow: none;
+	ul a{
+    	color: white;
+    	display: inline-block;
+	}
+}
+
+#el-nav{
+    background-image: url("../img/bg1.jpg");
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.texto-principal{
+    h3{
+    text-align: center;
+    color: white; 
+    padding-top: 15%;   
+	}
+    p{
+    	text-align: center;
+    	color: white;
+    	line-height: 30px !important;
+    }
+    a{
+    	margin-top: 2%,
+    }
+}
+
+.handphone{
+	h5{
+		color: #26a69a;
+		line-height: 30px;
+		padding-top: 10%;
+	}
+	p{
+		font-size: 14px;
+		line-height: 25px;
+		padding-top: 10%;
+	}
+	a{
+		margin-top: 10%;
+	}
+}
+
+#telefono{
+	background-color: #f5f6f8;
+ 	background-image: url("../img/hand.png");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-position-y: 0;
+    background-position-x: 90%;
+    background-size: inherit;
+}
+
+footer{
+    width: 50%;
+    margin-left: 14%;
+    padding:2%;
+    h6{
+    font-size: 15px;     
+    }     
+}
